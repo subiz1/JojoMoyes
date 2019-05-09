@@ -1,0 +1,186 @@
+.navbar, .head{
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(border.png) 30 stretch;
+        }
+        .cover a img {
+            width: 100%;
+            height: 500px;
+
+        }
+        .navbar{
+            margin-bottom:50px;
+        }
+.head, .books, .books-row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+        .menu {
+            width: 800px;
+            margin: auto;
+            font-family: Calibri;
+            font-size: 25px;
+            
+        }
+        ul {
+            list-style-type: none;
+        }
+li {
+    display: inline;
+    padding-right: 40px;
+    color: black
+}
+.bottom-socials ul li {
+    padding-left: 5px;
+}
+        li a:hover {
+            color: #965302
+        }
+        li a{
+            color:black;
+            text-decoration: none;
+        }
+.active {
+    color: #965302;
+    font-weight: bold;
+}
+        .top-socials {
+            margin-top: 70px;
+            position: absolute; 
+            right:0;
+        }
+        ul li a img {
+            width: 50px;
+            height: 50px;
+        }
+.bottom-socials {
+    width: 350px;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin: auto;
+}
+        footer {
+            background-color:black;
+            height:200px;
+            color:white;
+            margin-top:50px;
+        }
+        p a {
+    color: #965302;
+}
+.newsletter {
+    background-color: black;
+    text-align: center;
+    font-family: Calibri;
+    color: white;
+    clear:left;
+}
+        .content{
+            width: 800px;
+            margin:auto;
+        }
+        .newsletter
+        {
+            height:200px;
+        }
+        .facebook{
+            float:right;
+        }
+        .twitter, .facebook
+        {
+            width:400px;
+        }
+        .twitter ul li a img, .facebook ul li img{
+            padding-left:140px;
+        }
+h6 {
+    font-family: Calibri;
+    color: #965302;
+    font-size: 50px;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+}
+        .facebook-pic
+        {
+            width:400px;
+            height:300px;
+        }
+        p{
+            font-family:Calibri;
+            font-size:20px;
+            text-align:center;
+        }
+            p a:hover {
+                font-weight: bolder;
+                color: #965302;
+            }
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;  
+}
+    input[type=submit]:hover {
+        background-color: #965302;
+        color: white;
+        border-color: #965302;
+    }
+input[type=email]:focus, input[type=text]:focus, #subject:focus, #country:focus {
+    border: 2px solid #965302;
+}
+
+fieldset{
+    margin-top: 30px;
+}
+input[type=email], input[type=text], #subject, #country {
+    padding: 10px 3px;
+    width:200px;
+}
+legend{
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+}
+footer{
+    clear:both;
+}
+
+.book p a {
+    color: #965302;
+    text-decoration: none;
+}
+.home-cover {
+    width: 800px;
+}
+.book {
+    margin: auto;
+    float: left;
+    width: 18%;
+    padding: 8px;
+}
+.about-jojo p a{
+    color:black;
+    text-decoration:none;
+}
+    .about-jojo p a:hover {
+        color: #965302
+    }
+.contact-form {
+    height: 600px;
+    background-color: black;
+    text-align: left;
+    font-family: Calibri;
+    color: white;
+    clear: left;
+    margin-bottom:50px;
+}
+#name, #email, #subject, #country 
+{
+    width: 100%;
+}
